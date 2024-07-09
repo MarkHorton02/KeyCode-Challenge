@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0F0F0F;
+}
+#welcomeScreen, #container{
+    text-align: center;
+    background: #222222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#welcomeScreen h1{
+    margin-bottom: 10px;
+}
+
+.output p{
+    font-size: 1.2em;
+}
+
+.output div{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Obviously based on ChatGPT code but tweaked to how I prefer to format (removing some empty spaces, taking off the semicolon on the end of lines, etc.) */
+
+/* This CSS also tweaked to make it more of a dark/night theme instead of the bright white background */
